@@ -1,20 +1,26 @@
 ---
 layout: content
-title: About
-permalink: /about/
+title: Writing
+permalink: /writing/
 ---
-Hi, I'm Kito and I am a researcher in consumer behavior. Thanks for visiting my site.
 
-I program and write about machine learning and marketing analytics when I have the time. More information can be found through <a href="https://www.linkedin.com/in/kito-lomewa" data-network="LinkedIn" data-proofer-ignore>LinkedIn.</a>
+{% assign current_year = "" %}
 
-----
-## The Writing
+{% for post in site.posts %}
 
-I always believe that you can read almost anyone through their writings. Hence, feel free to read my writings as we are getting know to each other! Reach me out anytime at <a href="kitolomewa@link.cuhk.edu.cn">kitolomewa@link.cuhk.edu.cn.</a>
+{% assign post_year = post.date | date: "%Y" %}
 
-----
+{% if post_year != current_year %}
+{% assign current_year = post_year %}
 
-## Etc.
+## {{ current_year }}
 
-- [Instagram](https://www.instagram.com/kitolomewa) for 📸
+{% endif %}
 
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+{{ post.description }}
+
+{{ post.date | date: "%b %d, %Y" }}
+
+{% endfor %}
