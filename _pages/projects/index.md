@@ -20,7 +20,7 @@ Using publicly available product, movie, or book datasets, the study compares pr
 
 The project aims to demonstrate how focusing only on products that remain visible in the market can distort our understanding of consumer preferences and perceived quality.
 
-**Status:** on progress ...
+[Access here]({{ "/assets/files/Resume_ENG2002_Kito%20Lomewa.pdf" | relative_url }})
 
 ----
 
