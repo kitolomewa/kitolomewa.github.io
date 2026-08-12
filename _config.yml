@@ -1,24 +1,16 @@
-# Site settings
 title: Department 99
-description: > 
-  Some writings, research, and experiments I found.
+description: Research, writing, and experiments.
 
-author: Kito Lomewa
-email: kitolomewa@link.cuhk.edu.cn
-github_username: kitolomewa
+url: "https://kitolomewa.github.io"
+baseurl: ""
 
-baseurl: "/paper-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://deadbeef.me" # the base hostname & protocol for your site
+author:
+  name: Kito Lomewa
 
-google_analytics_id: UA-1111111111-1
-disqus_id:
-
-# Build settings
-include: [_pages]
 markdown: kramdown
-permalink: /:year/:month/:title.html
 
-sass:
-    style: compressed
+permalink: /:categories/:title/
 
-exclude: [vendor]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
