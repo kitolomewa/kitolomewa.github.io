@@ -1,47 +1,32 @@
 ---
 layout: page
-title: Department 99
+title: Home
 ---
-
-<div class="department-home">
-
-  <header class="hero">
-    <p class="eyebrow">PERSONAL RESEARCH & WRITING</p>
-
-    <h1>DEPARTMENT 99</h1>
-
-    <p class="intro">
-      A small corner of the internet for research, writing,
-      experiments, and things I happen to be curious about.
-    </p>
-  </header>
-
-  <section class="grid">
-
-    <a href="/research/" class="card">
-      <span class="card-number">01</span>
-      <h2>Research</h2>
-      <p>Questions I'm currently asking.</p>
-    </a>
-
-    <a href="/writing/" class="card">
-      <span class="card-number">02</span>
-      <h2>Writing</h2>
-      <p>Essays, notes, and things I've written.</p>
-    </a>
-
-    <a href="/projects/" class="card card-wide">
-      <span class="card-number">03</span>
-      <h2>Projects</h2>
-      <p>Experiments, ideas, and things I'm building.</p>
-    </a>
-
-    <a href="/about/" class="card">
-      <span class="card-number">04</span>
-      <h2>About</h2>
-      <p>A little more about me.</p>
-    </a>
-
-  </section>
-
-</div>
+<section class="c-archives">
+  <link rel="shortcut icon" href="">
+  {% for post in site.posts  %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+  {% if forloop.first %}
+  <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
+  <ul class="c-archives__list">
+    {% endif %}
+    <li class="c-archives__item">
+      <h3>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+        <br>
+        <small>{{post.description}}</small>
+      </h3>
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    </li>
+    {% if forloop.last %}
+  </ul>
+  {% else %}
+  {% if this_year != next_year %}
+</ul>
+<h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
+<ul class="c-archives__list">
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</section>
