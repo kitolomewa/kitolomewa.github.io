@@ -1,7 +1,15 @@
 title: Department 99
-description: A personal space for research, writing, and experiments.
+description: Research, writing, and experiments.
 
-theme: minima
+url: "https://kitolomewa.github.io"
+baseurl: ""
+
+author:
+  name: Kito Lomewa
+
+markdown: kramdown
+
+permalink: /:categories/:title/
 
 plugins:
   - jekyll-feed
