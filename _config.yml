@@ -4,8 +4,7 @@ description: Research, writing, and experiments.
 url: "https://kitolomewa.github.io"
 baseurl: ""
 
-author:
-  name: Kito Lomewa
+author: Kito Lomewa
 
 markdown: kramdown
 
