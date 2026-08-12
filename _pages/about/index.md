@@ -1,28 +1,22 @@
 ---
-layout: page
+layout: content
 title: About
 permalink: /about/
 ---
+Hi, I'm Johnny and I live in the Shire. Thanks for visiting my site.
 
-# About
+I program and write about software development when I have the time. More information can be found through <a href="https://www.linkedin.com/" data-network="LinkedIn" data-proofer-ignore>LinkedIn.</a>
 
-I'm Kito, an undergraduate student interested in the questions that sit between business, technology, and human behavior.
+----
 
-I like understanding why people make the choices they do, how technology changes those choices, and how seemingly small changes can create surprisingly large effects.
+## The Website
+This site was made on an [Apple MBP](https://www.apple.com/) powered by [Jekyll](https://jekyllrb.com) on [Github Pages](https://pages.github.com).
+I'd love to hear your feedback on this site and my work.
 
-My interests currently sit somewhere around marketing, consumer behavior, artificial intelligence, research, and writing.
+----
 
-## What I'm interested in
+## Etcetera
 
-- Consumer behavior
-- Quantitative marketing
-- Artificial intelligence
-- Technology and society
-- Research and data
-- Writing
+- [Instagram](https://www.instagram.com/) for 📸
+- [Facebook](https://www.facebook.com/) for 🕺
 
-## Currently
-
-I'm exploring questions about how AI changes the way people search, choose, buy, and interact with markets.
-
-This website is where I keep track of some of those questions, projects, and ideas.
