@@ -15,6 +15,12 @@
         color: $c-base__02;
     }
 
+    h1.site-title {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4.8rem;
+        line-height: 1.2;
+    }
+
     p {
         @include fs--meta;
     }
@@ -42,4 +48,3 @@
         color: $c-base__01;
     }
 }
-
