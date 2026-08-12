@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: content
 title: Research
 permalink: /research/
 ---
-
-# Research
 
 I am interested in understanding how technology changes human decision-making and markets.
 
@@ -31,7 +29,3 @@ I'm interested in using data and mathematical models to understand consumer beha
 ### Technology and Markets
 
 New technologies can change not only what consumers buy, but also how markets themselves work.
-
-## Research notes
-
-This section will eventually contain research projects, working papers, experiments, and notes from things I'm studying.
