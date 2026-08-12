@@ -1,7 +1,7 @@
 ---
 layout: content
-title: Writing
-permalink: /writing/
+title: Writings
+permalink: /writings/
 ---
 
 {% assign current_year = "" %}
