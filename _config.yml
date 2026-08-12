@@ -1,4 +1,8 @@
-title: My Website
-description: My personal website
+title: Department 99
+description: A personal space for research, writing, and experiments.
 
 theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
