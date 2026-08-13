@@ -8,6 +8,8 @@ author: Kito Lomewa
 
 markdown: kramdown
 
+future: true
+
 permalink: /:categories/:title/
 
 collections:
