@@ -4,28 +4,12 @@ title: Research
 permalink: /research/
 ---
 
-I am interested in understanding how technology changes human decision-making and markets.
+I want to tell you what I research (sort of), and the honest answer is: *I don’t entirely know yet*, which is either a terrible thing to admit in a research introduction or the only honest thing anyone in this position ever says. 
 
-Rather than starting with a particular method, I tend to start with a question:
+In short, I still read and dissect many papers and learn in the fields of **psychology**, **consumer behavior**, and **quantitative marketing modeling**. In the process, I also kissed some statistics (from which I learned about statistical models for my research methods), and fell in love with machine learning (which is apparently just statistics in disguise).
 
-> What changes when technology changes the way people make decisions?
+Perhaps that’s much of what I can say about my research interests. 
 
-## Current interests
+> The more you know, the less you understand.
 
-### AI and Consumer Behavior
-
-AI agents may change the traditional consumer journey.
-
-Instead of a consumer searching through dozens of products, an AI agent could search, compare, filter, and eventually recommend a choice.
-
-This raises a simple question:
-
-**Who is the consumer when the consumer does not make every decision themselves?**
-
-### Quantitative Marketing
-
-I'm interested in using data and mathematical models to understand consumer behavior and marketing decisions.
-
-### Technology and Markets
-
-New technologies can change not only what consumers buy, but also how markets themselves work.
+If you want to know more about me (= less understanding of me), feel free to read my independent projects in [Projects](https://kitolomewa.github.io/projects) tab. You’ll find that marketing is *a delightfully bewildering science*. 
